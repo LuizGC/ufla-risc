@@ -1,0 +1,23 @@
+addi r2,r0,10
+addi r3,r0,4
+add r1,r2,r3
+sub r10,r2,r3
+zeros r10
+xor r1,r2,r3
+or r1,r2,r3
+mult r5,r2,r3
+multi r5,r2,7
+not r1,r2
+and r1,r2,r3
+copy r1,r2
+nop
+load r1,r2
+store r1,r2
+addi r1,r2,20
+subi r1,r2,20
+neg r1,r2
+gmt r1,r2,r3
+glt r1,r2,r3
+slt r1,r2,r3
+slti r1,r2,255
+halt

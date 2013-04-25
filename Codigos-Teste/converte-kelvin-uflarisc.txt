@@ -1,0 +1,7 @@
+#conversao celsius para kelvin
+addi r1,r0,30
+addi r2,r0,255
+addi r2,r2,18
+add r2,r1,r2
+store r0,r2
+halt

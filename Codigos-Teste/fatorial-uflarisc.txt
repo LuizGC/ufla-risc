@@ -1,0 +1,8 @@
+#fatorial de n = 5 : resposta esta em r2
+addi r1,r0,5
+addi r2,r0,1
+beq r1,r0,6
+mult r2,r2,r1
+subi r1,r1,1
+bne r1,r0,2
+halt
